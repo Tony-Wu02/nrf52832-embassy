@@ -1,3 +1,14 @@
+// =======================================================================================
+// File: blinky.rs
+//
+// Copyright (c) 2025 Vanderbilt University
+// Authors:
+// - Tengyue Wu
+// 
+//
+// Licensed to Vanderbilt University. All Rights Reserved.
+// =======================================================================================
+
 #![no_std]
 #![no_main]
 
