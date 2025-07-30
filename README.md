@@ -6,7 +6,7 @@ This directory contains examples for the nRF52832 microcontroller using the Emba
 
 Watch the nRF52 DK in action with our Embassy examples:
 
-https://github.com/Tony-Wu02/nrf52832-embassy/assets/IMG_VIDEO_FILE
+https://github.com/Tony-Wu02/nrf52832-embassy/assets/demo.mp4
 
 *Click the video above to watch the full demonstration*
 
