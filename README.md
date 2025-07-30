@@ -2,6 +2,21 @@
 
 This directory contains examples for the nRF52832 microcontroller using the Embassy async runtime.
 
+## Video Demonstration
+
+Watch the nRF52 DK in action with our Embassy examples:
+
+https://github.com/Tony-Wu02/nrf52832-embassy/assets/IMG_VIDEO_FILE
+
+*Click the video above to watch the full demonstration*
+
+### What's shown in the video:
+- ✅ **LED Blinking Demo** - All 4 LEDs (LED1-LED4) blinking in sequence
+- ✅ **Debug Output** - Real-time debug messages via RTT
+- ✅ **Hardware Setup** - nRF52 DK connection and configuration
+- ✅ **Code Compilation** - Building and flashing process
+- ✅ **Live Testing** - Real-time program execution
+
 ## Hardware Requirements
 
 - **nRF52 DK (Development Kit)** - Bluetooth Low Energy and Bluetooth mesh development kit for the nRF52810 and nRF52832 SoCs
