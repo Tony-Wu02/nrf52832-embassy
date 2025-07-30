@@ -8,8 +8,6 @@ Watch the nRF52 DK in action with our Embassy examples:
 
 https://github.com/Tony-Wu02/nrf52832-embassy/demo.mp4
 
-*Click the video above to watch the full demonstration*
-
 ### What's shown in the video:
 - ✅ **LED Blinking Demo** - All 4 LEDs (LED1-LED4) blinking in sequence
 - ✅ **Debug Output** - Real-time debug messages via RTT
