@@ -1,0 +1,14 @@
+[target.thumbv7em-none-eabihf]
+# This runner will "flash" the ELF file to the nRF52832.
+# On *nix, you can `cargo install cargo-binutils` and use `cargo objcopy` instead.
+# On Windows, you can use `cargo objcopy` or `cargo run` will work.
+runner = "probe-rs run --chip nRF52832_xxAA"
+
+[build]
+target = "thumbv7em-none-eabihf" # Cortex-M4 and Cortex-M7 (no FPU, no interp)
+
+[env]
+# This runner will "flash" the ELF file to the nRF52832.
+# On *nix, you can `cargo install cargo-binutils` and use `cargo objcopy` instead.
+# On Windows, you can use `cargo objcopy` or `cargo run` will work.
+CARGO_RUNNER = "probe-rs run --chip nRF52832_xxAA" 
