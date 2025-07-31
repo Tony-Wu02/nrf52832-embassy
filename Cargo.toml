@@ -10,6 +10,8 @@ embassy-sync = { version = "0.7.0", features = ["defmt"] }
 embassy-executor = { version = "0.7.0", features = ["arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
 embassy-time = { version = "0.4.0", features = ["defmt", "defmt-timestamp-uptime"] }
 embassy-nrf = { version = "0.5.0", features = ["defmt", "nrf52832", "time-driver-rtc1", "gpiote", "unstable-pac", "time"] }
+nrf_softdevice = { version = "0.3.0" }
+nrf_softdevice_s132 = { version = "0.3.0" }
 embassy-net = { version = "0.7.0", features = ["defmt", "tcp", "dhcpv4", "medium-ethernet"] }
 embassy-usb = { version = "0.5.0", features = ["defmt"] }
 embedded-io = { version = "0.6.0", features = ["defmt-03"]  }
@@ -34,6 +36,10 @@ embedded-hal-async = { version = "1.0" }
 embedded-hal-bus = { version = "0.1", features = ["async"] }
 num-integer = { version = "0.1.45", default-features = false }
 microfft = "0.5.0"
+
+[features]
+default = []
+cat = []
 
 [profile.release]
 debug = 2 
